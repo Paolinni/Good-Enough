@@ -17,7 +17,7 @@ class PublicNav extends Component {
         <li className='nav-right'>{button}</li>
         <li className='nav-middle'>
         <button className="demo-button" onClick={() => demoLogin(this.props)}><i className="fa fa-desktop demo-icon"></i>Demo</button>
-        <a href="https://github.com/bestguess/Good-Enough"><button className="demo-button github"><i className="fa fa-github demo-icon"></i>Github</button></a>
+        <a href="https://github.com/Paolinni/Good-Enough"><button className="demo-button github"><i className="fa fa-github demo-icon"></i>Github</button></a>
         </li>
       </nav>
     )

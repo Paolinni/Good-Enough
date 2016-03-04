@@ -52,7 +52,7 @@ if (module.hot) {
       store.replaceReducer(nextReducer)
     })
   }
-  
+
 routerMiddleware.listenForReplays(store);
 
 
